@@ -232,7 +232,7 @@ class GstBasePluginClass(GstBase.BaseTransform):
     # Metadata Explanation:
     # http://lifestyletransfer.com/how-to-create-simple-blurfilter-with-gstreamer-in-python-using-opencv/
 
-    GST_PLUGIN_NAME = "gst_mxnet_detection"
+    GST_PLUGIN_NAME = "gst_gluoncv"
 
     __gstmetadata__ = ("Name", "Transform", "Description", "Author")
 
