@@ -19,7 +19,7 @@ pip install mxnet gluoncv opencv-python
 
 > gst-inspect-1.0 <plugin_name>
 
-`gst-launch-1.0 gst_gluoncv`
+`gst-inspect-1.0 gst_gluoncv`
 
 
 1. Create a sample JSON config for the plugin
@@ -39,4 +39,7 @@ pip install mxnet gluoncv opencv-python
 
 ## Sample Gstreamer Pipes
 
-1. ``
+1. Perform object detection on a video file
+
+    `gst-launch-1.0 filesrc location=video.mp4 ! decodebin ! videoconvert ! \
+        gst_gluoncv config=gluon_config.json ! videoconvert ! autovideosink`
