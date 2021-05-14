@@ -27,7 +27,7 @@ sudo apt install libssl-dev libcurl4-openssl-dev liblog4cplus-dev
 
 ## Gstreamer Installation
 ```
-sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-libav
+sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-libav python3-gst-1.0
 ```
 
 ## Gstreamer Python Binding Installation
